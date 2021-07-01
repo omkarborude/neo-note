@@ -1,0 +1,144 @@
+.home-main-div {
+  padding: 1rem;
+}
+
+.note-taking-div {
+  width: 35%;
+  padding: 1rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+}
+.title-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  outline: transparent;
+}
+.title-input::placeholder {
+  color: #adb5bd;
+}
+
+/* desc input */
+.take-note-input {
+  width: 100%;
+  border: none;
+  padding: 0.5rem;
+  resize: none;
+  outline: transparent;
+}
+
+/* note color , tag , save div */
+.color-tag-save-option {
+  display: flex;
+  margin-top: 0.5rem;
+}
+.color-option-btn {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-left: 0.2rem;
+  outline: transparent;
+}
+.color-option-btn:hover {
+  cursor: pointer;
+}
+
+/* tag btn option div */
+.tag-options-div {
+  margin-left: 0.5rem;
+}
+.tag-option-tag-select {
+  padding: 0.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  outline: transparent;
+}
+.tag-option-tag-select:hover {
+  cursor: pointer;
+  background-color: #edf2fb;
+}
+
+.btn-cancel-take-note-card {
+  margin-left: 3rem;
+  background-color: transparent;
+  outline: transparent;
+  padding: 0.3rem;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+}
+.btn-cancel-take-note-card:hover {
+  cursor: pointer;
+  background-color: #90e0ef;
+
+  transition: 0.2s;
+}
+.btn-add-take-note-card {
+  margin-left: 2rem;
+  padding: 0.3rem;
+  width: 4rem;
+  letter-spacing: 0.1rem;
+  background-color: #ff0099;
+  color: white;
+  border: 1px solid #ff0099;
+  font-weight: 600;
+  border-radius: 0.2rem;
+}
+.btn-add-take-note-card:hover {
+  cursor: pointer;
+}
+.btn-add-take-note-card:active {
+  transition: 0.1s;
+  border: 1px solid white;
+}
+
+.show-notes-home-main-div {
+  display: flex;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.filter-tag-opton-div {
+  margin-top: 2rem;
+}
+.btn-tag-active {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  background-color: white;
+  border-radius: 1rem;
+  background-color: red;
+  border: none;
+  color: white;
+  transition: 0.3s;
+  box-shadow: 0px 10px 10px 3px rgba(22, 21, 21, 0.1);
+}
+
+.btn-tag {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  background-color: white;
+  border: 1px solid gainsboro;
+  border-radius: 1rem;
+  color: gray;
+}
+.btn-tag:hover {
+  cursor: pointer;
+  color: black;
+  border: 1px solid black;
+}
+/* for mobile */
+@media only screen and (max-width: 800px) {
+  .note-taking-div {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .show-notes-home-main-div {
+    margin: 0 auto;
+    justify-content: center;
+  }
+}

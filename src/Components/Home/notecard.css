@@ -1,0 +1,62 @@
+.show-not-card {
+  padding: 1rem;
+  width: 22rem;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+}
+.note-card-title-div {
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.note-card-desc-div {
+  text-align: left;
+  margin-top: 0.5rem;
+}
+.tag-edit-remove-div {
+  display: flex;
+  margin-top: 1rem;
+}
+.note-card-tag-main-div {
+  width: 30%;
+}
+.note-card-tag-div {
+  text-align: center;
+  background-color: #bde0fe;
+  padding: 0.2rem;
+  letter-spacing: 0.1rem;
+  border-radius: 0.3rem;
+}
+
+.note-card-edit-trash-div {
+  display: flex;
+  width: 70%;
+}
+.note-card-edit-btn-div {
+  padding: 0.2rem;
+  margin-left: 70%;
+  float: right;
+}
+.note-card-edit-btn-div:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.note-card-trash-btn-div {
+  padding: 0.2rem;
+  margin-left: 1rem;
+  float: right;
+}
+.note-card-trash-btn-div:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/* for mobile */
+@media only screen and (max-width: 800px) {
+  .show-not-card {
+    margin-left: 0;
+  }
+}
