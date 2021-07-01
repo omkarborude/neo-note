@@ -1,0 +1,80 @@
+.account-card-div {
+  width: 40%;
+  padding: 1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+.account-username-tag span {
+  color: #ff4d6d;
+}
+.account-card-username {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 1rem;
+}
+.account-card-username p {
+  width: 50%;
+  text-align: left;
+  color: gray;
+  font-weight: 600;
+}
+.account-card-username span {
+  width: 50%;
+  text-align: left;
+  font-weight: 600;
+}
+
+.account-card-email {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 1rem;
+}
+.account-card-email p {
+  width: 50%;
+  text-align: left;
+  color: gray;
+  font-weight: 600;
+}
+.account-card-email span {
+  width: 50%;
+  text-align: left;
+  font-weight: 600;
+}
+
+.account-loguot-btn-div {
+  margin-top: 2rem;
+}
+.btn-logout {
+  padding: 0.5rem;
+  letter-spacing: 0.1rem;
+  background-color: white;
+  border: 1px solid gainsboro;
+  font-weight: 600;
+}
+.btn-logout:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition: 0.2s;
+  border: 1px solid black;
+}
+.btn-logout:active {
+  border: 1px solid white;
+  transition: 0.1s;
+}
+
+/* for mobile */
+@media only screen and (max-width: 800px) {
+  .account-card-div {
+    width: 95%;
+  }
+  .account-card-username {
+    width: 80%;
+  }
+  .account-card-email {
+    width: 80%;
+  }
+}
