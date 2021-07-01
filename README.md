@@ -10,7 +10,7 @@ Username:-    tester
 password:-    tester
 
 ###### **Here is the link to the [live demo](https://neo-note.netlify.app/)**
-###### **Here is BackEnd Code [Backend](https://github.com/omkarborude/VideoLibBack)**
+###### **Here is BackEnd Code [Backend](https://github.com/omkarborude/Note-App-Backend)**
 
 ## The salient features of the app are:
 - Take Note
