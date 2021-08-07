@@ -160,6 +160,24 @@
   color: white;
   transition: 0.3s;
 }
+.guest-login-div {
+  text-align: left;
+  padding: 0.5rem;
+  padding-left: 1rem;
+}
+.guest-login-div button {
+  background-color: transparent;
+  border: 1px solid gainsboro;
+  padding: 0.2rem;
+}
+
+.guest-login-div button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: 0.2s;
+}
 
 /* for mobile */
 @media only screen and (max-width: 800px) {

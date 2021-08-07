@@ -4,6 +4,7 @@ import { AddBtnPressed, DeleteBtnPressed } from "../../Slice/NotesSlice";
 import { getFilteredNotes } from "../../utils";
 import "./home.css";
 import { NoteCard } from "./NoteCard";
+
 export const Home = () => {
   const dispatch = useDispatch();
   const filterTags = ["Note", "To-Do", "Reminder"];
